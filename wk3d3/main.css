@@ -1,0 +1,75 @@
+* {
+    font-family: 'Phudu', cursive;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#first {
+    size: 150%;
+    background: black url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) top left no-repeat;
+    filter:grayscale(40%);
+    background-size: 125% auto;
+}
+header {
+    display: flex;
+    border-bottom: 2px white solid;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+}
+#nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+img {
+    height: 500px;
+}
+#start{
+    padding-top: 300px;
+    padding-bottom: 400px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    border-bottom: 2px white solid;
+    margin: 20px;
+    padding: 20px;
+}
+#content {
+    background-color: black;
+}
+h2, h3, h4 {
+    letter-spacing: 2px;
+}
+#img1, #img3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#img2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #171717;
+}
+#img3 {
+    background-color: #333333;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-size: 35px;
+}
+p {
+    font-size: 20px;
+    width: 450px;
+}
